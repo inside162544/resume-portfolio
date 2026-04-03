@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2420"/>
+      <stop offset="1" stop-color="#131b18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#6ee7b7" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#6ee7b7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="190" r="160" fill="url(#glow)"/>
+  <circle cx="256" cy="228" r="82" fill="#6ee7b7" fill-opacity="0.14" stroke="#e8f5ed" stroke-opacity="0.14" stroke-width="6"/>
+  <path
+    d="M168 428c10-73 58-120 88-134 10-5 20-5 30 0 30 14 78 61 88 134"
+    fill="#e8f5ed"
+    fill-opacity="0.06"
+    stroke="#e8f5ed"
+    stroke-opacity="0.14"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <text x="256" y="450" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#E8F5ED" font-weight="700">SR</text>
+</svg>
